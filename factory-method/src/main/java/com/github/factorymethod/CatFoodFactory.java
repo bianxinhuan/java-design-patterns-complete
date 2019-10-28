@@ -13,7 +13,7 @@ public class CatFoodFactory {
      * @param name
      * @return
      */
-    public static AbstractCatFood production(String name) {
+    public static AbstractCatFood produce(String name) {
         switch (name) {
             case "babyCatFood":
                 return new BabyCatFood();

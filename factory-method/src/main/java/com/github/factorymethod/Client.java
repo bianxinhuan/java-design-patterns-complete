@@ -7,10 +7,10 @@ package com.github.factorymethod;
  */
 public class Client {
     public static void main(String[] args) {
-        AbstractCatFood catFood = CatFoodFactory.production("babyCatFood");
+        AbstractCatFood catFood = CatFoodFactory.produce("babyCatFood");
         System.out.println(catFood.catFoodName());
 
-        catFood = CatFoodFactory.production("kettyCatFood");
+        catFood = CatFoodFactory.produce("kettyCatFood");
         System.out.println(catFood.catFoodName());
     }
 }

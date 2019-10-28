@@ -23,9 +23,9 @@ public abstract class AbstractCatFoodProductionProcess {
     protected abstract void packaging();
 
     /**
-     * 生产方法
+     * 生产
      */
-    public final void production() {
+    public final void produce() {
 
         rawMaterialPreparation();
 

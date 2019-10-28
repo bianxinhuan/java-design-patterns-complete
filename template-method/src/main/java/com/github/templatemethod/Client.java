@@ -9,9 +9,9 @@ public class Client {
 
     public static void main(String[] args) {
         AbstractCatFoodProductionProcess productionProcess = new BabyCatFoodProductionProcess();
-        productionProcess.production();
+        productionProcess.produce();
 
         productionProcess = new KittyCatFoodProductionProcessImpl();
-        productionProcess.production();
+        productionProcess.produce();
     }
 }
