@@ -1,8 +1,5 @@
 package com.github.templatemethod;
 
-import java.util.HashMap;
-import java.util.Map;
-
 /**
  * -
  *
@@ -11,13 +8,10 @@ import java.util.Map;
 public class Client {
 
     public static void main(String[] args) {
-        Map<String, String> params = new HashMap<>();
-        params.put("code", "1234");
+        AbstractCatFoodProductionProcess productionProcess = new BabyCatFoodProductionProcess();
+        productionProcess.production();
 
-        AbstractSmsTemplateSender smsSender = new LoginSmsTemplateSender();
-        smsSender.send(params);
-
-        smsSender = new ChangePasswordSmsTemplateSender();
-        smsSender.send(params);
+        productionProcess = new KittyCatFoodProductionProcessImpl();
+        productionProcess.production();
     }
 }
