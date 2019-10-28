@@ -9,8 +9,10 @@ import java.math.BigDecimal;
  */
 public class Client {
     public static void main(String[] args) {
-        PayStrategy payStrategy = getPayStrategy("aliPay");
-        payStrategy.pay(new BigDecimal(199.99));
+
+        PayContext payContext = new PayContext(getPayStrategy("aliPay"));
+
+        payContext.pay(new BigDecimal(199.99));
     }
 
     private static PayStrategy getPayStrategy(String payCode) {
