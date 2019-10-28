@@ -23,6 +23,7 @@
         <module>factory-method</module>
         <module>abstract-factory</module>
         <module>decorator</module>
+        <module>facade</module>
     </modules>
 
     <dependencies>
