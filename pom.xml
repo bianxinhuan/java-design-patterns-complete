@@ -24,6 +24,7 @@
         <module>abstract-factory</module>
         <module>decorator</module>
         <module>facade</module>
+        <module>observer</module>
     </modules>
 
     <dependencies>

@@ -1,4 +1,6 @@
-package com.github.observer.custom;
+package com.github.observer.jdk;
+
+import java.util.Observer;
 
 /**
  * -

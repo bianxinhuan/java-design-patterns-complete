@@ -1,4 +1,4 @@
-package com.github.observer;
+package com.github.observer.custom;
 
 /**
  * -
