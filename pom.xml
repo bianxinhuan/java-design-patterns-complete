@@ -25,6 +25,7 @@
         <module>decorator</module>
         <module>facade</module>
         <module>observer</module>
+        <module>chain-of-responsibility</module>
     </modules>
 
     <dependencies>
